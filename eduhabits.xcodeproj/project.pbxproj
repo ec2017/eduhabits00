@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C50051528879F7E00F6A81F /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50051428879F7E00F6A81F /* ToDoTableViewController.swift */; };
+		5C50051728879F9900F6A81F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50051628879F9900F6A81F /* ToDo.swift */; };
+		5C5005192887A12600F6A81F /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5005182887A12600F6A81F /* AddToDoViewController.swift */; };
+		5C50051B2887A34600F6A81F /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50051A2887A34600F6A81F /* CompleteToDoViewController.swift */; };
 		5CCA75662887392600995A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA75652887392600995A45 /* AppDelegate.swift */; };
 		5CCA75682887392600995A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA75672887392600995A45 /* SceneDelegate.swift */; };
 		5CCA756A2887392600995A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA75692887392600995A45 /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C50051428879F7E00F6A81F /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		5C50051628879F9900F6A81F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		5C5005182887A12600F6A81F /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		5C50051A2887A34600F6A81F /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		5CCA75622887392600995A45 /* eduhabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eduhabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCA75652887392600995A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CCA75672887392600995A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +69,7 @@
 				5CCA75652887392600995A45 /* AppDelegate.swift */,
 				5CCA75672887392600995A45 /* SceneDelegate.swift */,
 				5CCA75692887392600995A45 /* ViewController.swift */,
+				5CF9130028879724007FC6C9 /* ToDo Function */,
 				5CCA756B2887392600995A45 /* Main.storyboard */,
 				5CCA75712887392700995A45 /* Assets.xcassets */,
 				5CCA75732887392700995A45 /* LaunchScreen.storyboard */,
@@ -68,6 +77,17 @@
 				5CCA756E2887392600995A45 /* eduhabits.xcdatamodeld */,
 			);
 			path = eduhabits;
+			sourceTree = "<group>";
+		};
+		5CF9130028879724007FC6C9 /* ToDo Function */ = {
+			isa = PBXGroup;
+			children = (
+				5C50051428879F7E00F6A81F /* ToDoTableViewController.swift */,
+				5C50051628879F9900F6A81F /* ToDo.swift */,
+				5C5005182887A12600F6A81F /* AddToDoViewController.swift */,
+				5C50051A2887A34600F6A81F /* CompleteToDoViewController.swift */,
+			);
+			path = "ToDo Function";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +163,12 @@
 			files = (
 				5CCA756A2887392600995A45 /* ViewController.swift in Sources */,
 				5CCA75662887392600995A45 /* AppDelegate.swift in Sources */,
+				5C50051B2887A34600F6A81F /* CompleteToDoViewController.swift in Sources */,
 				5CCA75682887392600995A45 /* SceneDelegate.swift in Sources */,
+				5C50051728879F9900F6A81F /* ToDo.swift in Sources */,
+				5C5005192887A12600F6A81F /* AddToDoViewController.swift in Sources */,
 				5CCA75702887392600995A45 /* eduhabits.xcdatamodeld in Sources */,
+				5C50051528879F7E00F6A81F /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
