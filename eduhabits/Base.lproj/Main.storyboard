@@ -612,7 +612,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Next">
+                                <buttonConfiguration key="configuration" style="gray" title="Complete">
                                     <fontDescription key="titleFontDescription" name="Galvji-Bold" family="Galvji" pointSize="10"/>
                                     <color key="baseBackgroundColor" red="0.99587291479999995" green="0.85618466010000005" blue="0.587645427" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -1116,7 +1116,7 @@ Id ius solet laudem cotidieque, nam dicat concludaturque id. Putant utroque duo 
         <segue reference="EZo-f2-TJb"/>
         <segue reference="TT5-kM-Wm6"/>
         <segue reference="KzY-Qg-fvT"/>
-        <segue reference="XDs-w0-KAr"/>
+        <segue reference="3bo-Ar-PE0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowshape.turn.up.backward.circle" catalog="system" width="128" height="121"/>
