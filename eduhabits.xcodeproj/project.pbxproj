@@ -19,6 +19,7 @@
 		5CCA75702887392600995A45 /* eduhabits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA756E2887392600995A45 /* eduhabits.xcdatamodeld */; };
 		5CCA75722887392700995A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCA75712887392700995A45 /* Assets.xcassets */; };
 		5CCA75752887392700995A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCA75732887392700995A45 /* LaunchScreen.storyboard */; };
+		BD1B78BD2889D4800086401E /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B78BC2889D4800086401E /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5CCA75712887392700995A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CCA75742887392700995A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CCA75762887392700995A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1B78BC2889D4800086401E /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				5CCA75652887392600995A45 /* AppDelegate.swift */,
 				5CCA75672887392600995A45 /* SceneDelegate.swift */,
 				5CCA75692887392600995A45 /* ViewController.swift */,
+				BD1B78BC2889D4800086401E /* secondViewController.swift */,
 				5CF9130028879724007FC6C9 /* ToDo Function */,
 				5CCA756B2887392600995A45 /* Main.storyboard */,
 				5CCA75712887392700995A45 /* Assets.xcassets */,
@@ -172,6 +175,7 @@
 				5C50051728879F9900F6A81F /* ToDo.swift in Sources */,
 				5C5005192887A12600F6A81F /* AddToDoViewController.swift in Sources */,
 				5CCA75702887392600995A45 /* eduhabits.xcdatamodeld in Sources */,
+				BD1B78BD2889D4800086401E /* secondViewController.swift in Sources */,
 				5C50051528879F7E00F6A81F /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
