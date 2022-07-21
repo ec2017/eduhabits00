@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445793772889499100DD60B4 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445793762889499100DD60B4 /* TimerViewController.swift */; };
 		5C50051528879F7E00F6A81F /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50051428879F7E00F6A81F /* ToDoTableViewController.swift */; };
 		5C50051728879F9900F6A81F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50051628879F9900F6A81F /* ToDo.swift */; };
 		5C5005192887A12600F6A81F /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5005182887A12600F6A81F /* AddToDoViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		445793762889499100DD60B4 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		5C50051428879F7E00F6A81F /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		5C50051628879F9900F6A81F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		5C5005182887A12600F6A81F /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		5CCA75592887392600995A45 = {
 			isa = PBXGroup;
 			children = (
+				445793762889499100DD60B4 /* TimerViewController.swift */,
 				5CCA75642887392600995A45 /* eduhabits */,
 				5CCA75632887392600995A45 /* Products */,
 			);
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CCA756A2887392600995A45 /* ViewController.swift in Sources */,
+				445793772889499100DD60B4 /* TimerViewController.swift in Sources */,
 				5CCA75662887392600995A45 /* AppDelegate.swift in Sources */,
 				5C50051B2887A34600F6A81F /* CompleteToDoViewController.swift in Sources */,
 				5CCA75682887392600995A45 /* SceneDelegate.swift in Sources */,
