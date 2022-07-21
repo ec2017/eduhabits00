@@ -43,7 +43,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ayt-MP-fL6">
-                                <rect key="frame" x="117" y="499" width="181" height="31"/>
+                                <rect key="frame" x="117" y="523" width="181" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -62,11 +62,44 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello, " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4u0-aO-nIf">
+                                <rect key="frame" x="0.0" y="347" width="206" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3f-4F-kC1">
+                                <rect key="frame" x="214" y="347" width="200" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnw-zv-pJg">
+                                <rect key="frame" x="117" y="461" width="181" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Submut">
+                                    <fontDescription key="titleFontDescription" name="Galvji-Bold" family="Galvji" pointSize="10"/>
+                                    <color key="baseBackgroundColor" red="0.99587291479999995" green="0.85618466010000005" blue="0.587645427" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nameField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="20c-HH-LA6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99607843159999998" green="0.96862745289999996" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="u7H-D3-j1C"/>
+                    <connections>
+                        <outlet property="askNameLabel" destination="0H9-Ab-qqW" id="vcs-kg-QKt"/>
+                        <outlet property="helloLabel" destination="4u0-aO-nIf" id="4yM-Kb-nJC"/>
+                        <outlet property="nameField" destination="4Ow-zU-NLf" id="mnv-je-8B2"/>
+                        <outlet property="nameLabel" destination="B3f-4F-kC1" id="gBe-8E-qqT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -1121,7 +1154,7 @@ Id ius solet laudem cotidieque, nam dicat concludaturque id. Putant utroque duo 
         <segue reference="C8K-bf-LEK"/>
         <segue reference="EZo-f2-TJb"/>
         <segue reference="rFH-M1-F6Z"/>
-        <segue reference="gRs-yk-hUD"/>
+        <segue reference="buV-AL-eWY"/>
         <segue reference="Rii-uT-dFT"/>
     </inferredMetricsTieBreakers>
     <resources>
