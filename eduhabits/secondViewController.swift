@@ -17,7 +17,7 @@ class secondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        welcomeMessage.text = "Welcome \(userName) to Eduhabits!"
+        welcomeMessage.text = "Welcome, \(userName), to eduhabits!"
     
 
     /*
