@@ -878,11 +878,8 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mq-LA-Mwd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mq-LA-Mwd">
                                 <rect key="frame" x="100" y="364" width="214" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="3mq-LA-Mwd" secondAttribute="height" multiplier="214:31" id="Hxm-3v-j0C"/>
-                                </constraints>
                                 <color key="tintColor" red="0.95722335577011108" green="0.8383147120475769" blue="0.84481436014175415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Affirmations"/>
@@ -909,10 +906,12 @@
                         <viewLayoutGuide key="safeArea" id="oYF-SB-97K"/>
                         <color key="backgroundColor" red="1" green="0.97162707029999995" blue="0.82549868979999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="3mq-LA-Mwd" secondAttribute="trailing" constant="100" id="5ut-hL-CjR"/>
                             <constraint firstItem="Wm7-da-g8J" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="53" id="Ato-d6-d9u"/>
                             <constraint firstItem="3mq-LA-Mwd" firstAttribute="top" secondItem="Wm7-da-g8J" secondAttribute="bottom" constant="33" id="H3V-3K-7Oa"/>
                             <constraint firstItem="I4g-mc-8U5" firstAttribute="top" secondItem="xrU-Dg-hp2" secondAttribute="bottom" constant="52" id="H6a-Yt-E2C"/>
                             <constraint firstItem="xrU-Dg-hp2" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="53" id="LXu-VD-PNk"/>
+                            <constraint firstItem="3mq-LA-Mwd" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="100" id="Top-yc-9dH"/>
                             <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="Wm7-da-g8J" secondAttribute="trailing" constant="52" id="XdK-7Y-QVE"/>
                             <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="xrU-Dg-hp2" secondAttribute="trailing" constant="44" id="ajG-wh-zNf"/>
                             <constraint firstItem="xrU-Dg-hp2" firstAttribute="top" secondItem="3mq-LA-Mwd" secondAttribute="bottom" constant="40" id="naa-jT-P0g"/>
@@ -1407,7 +1406,7 @@ Cgk
                         <color key="backgroundColor" red="1" green="0.97647058819999999" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="labelColor"/>
                         <toolbar key="tableFooterView" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="haC-Je-yED">
-                            <rect key="frame" x="0.0" y="111" width="414" height="44"/>
+                            <rect key="frame" x="0.0" y="110.5" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <items>
                                 <barButtonItem title="Back" image="arrowshape.turn.up.backward.circle" catalog="system" id="gDI-7P-ldZ">
@@ -1756,23 +1755,29 @@ Cgk
                                 <color key="textColor" systemColor="systemIndigoColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://isle.hanover.edu/Ch05Object/Ch05SymmetryLaw_evt.html" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ka-cD-Uz6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="https://isle.hanover.edu/Ch05Object/Ch05SymmetryLaw_evt.html" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ka-cD-Uz6">
                                 <rect key="frame" x="38" y="350" width="339" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="Rpc-DI-4tg"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" systemColor="systemIndigoColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.smashingmagazine.com/2019/04/spaces-web-design-gestalt-principles/" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwz-Cv-rw9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="https://www.smashingmagazine.com/2019/04/spaces-web-design-gestalt-principles/" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwz-Cv-rw9">
                                 <rect key="frame" x="38" y="402" width="339" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="FQ1-sN-fgH"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" systemColor="systemIndigoColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://lawsofux.com/en/" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDp-YG-yod">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="https://lawsofux.com/en/" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDp-YG-yod">
                                 <rect key="frame" x="38" y="451" width="339" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="GNr-xP-qIf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" systemColor="systemIndigoColor"/>
                                 <nil key="highlightedColor"/>
@@ -1824,7 +1829,7 @@ Cgk
         <segue reference="dxk-7x-3SX"/>
         <segue reference="4Kn-4r-Kkv"/>
         <segue reference="HLh-tJ-npa"/>
-        <segue reference="cl9-lg-ade"/>
+        <segue reference="9OZ-EK-EzR"/>
         <segue reference="HhR-tN-PQV"/>
     </inferredMetricsTieBreakers>
     <resources>
