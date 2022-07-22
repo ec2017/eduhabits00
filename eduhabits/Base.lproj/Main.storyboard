@@ -124,21 +124,6 @@
                                     <segue destination="ftR-Bj-0gi" kind="presentation" modalPresentationStyle="fullScreen" id="EZo-f2-TJb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zM-E5-B24">
-                                <rect key="frame" x="109" y="328" width="195" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Timer, Methods, To Do List">
-                                        <attributes>
-                                            <color key="NSColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name="Galvji"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW5-Xf-ZuS">
                                 <rect key="frame" x="97" y="404" width="220" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -178,6 +163,21 @@
                                     <fragment content="Welcome Message">
                                         <attributes>
                                             <font key="NSFont" size="20" name="Galvji"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zM-E5-B24">
+                                <rect key="frame" x="93" y="328" width="227" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Motvation, Methods, To Do List">
+                                        <attributes>
+                                            <color key="NSColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name="Galvji"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -600,7 +600,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Timer">
+                                <buttonConfiguration key="configuration" style="gray" title="Motvation">
                                     <fontDescription key="titleFontDescription" name="Galvji-Bold" family="Galvji" pointSize="10"/>
                                     <color key="baseBackgroundColor" red="0.99587291479999995" green="0.85618466010000005" blue="0.587645427" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -852,10 +852,10 @@
             </objects>
             <point key="canvasLocation" x="3544.9275362318845" y="-668.30357142857144"/>
         </scene>
-        <!--Timer3 View Controller-->
+        <!--View Controller-->
         <scene sceneID="h83-Ab-kks">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vP2-3H-4wD" customClass="Timer3ViewController" customModule="eduhabits" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vP2-3H-4wD" customClass="MAViewController" customModule="eduhabits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kmV-by-hYH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -878,97 +878,50 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJQ-Ro-LaS">
-                                <rect key="frame" x="94" y="405" width="225" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mq-LA-Mwd">
+                                <rect key="frame" x="100" y="364" width="214" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="225" id="0At-fc-yZV"/>
-                                    <constraint firstAttribute="width" secondItem="IJQ-Ro-LaS" secondAttribute="height" multiplier="45:7" id="d2a-jf-Cmf"/>
-                                    <constraint firstAttribute="height" constant="35" id="p79-va-sFY"/>
-                                    <constraint firstAttribute="width" secondItem="IJQ-Ro-LaS" secondAttribute="height" multiplier="45:7" id="tBx-JZ-MXc"/>
+                                    <constraint firstAttribute="width" secondItem="3mq-LA-Mwd" secondAttribute="height" multiplier="214:31" id="Hxm-3v-j0C"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="labelColor"/>
+                                <color key="tintColor" red="0.95722335577011108" green="0.8383147120475769" blue="0.84481436014175415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Start">
-                                    <fontDescription key="titleFontDescription" name="Galvji-Bold" family="Galvji" pointSize="10"/>
-                                    <color key="baseBackgroundColor" red="0.99587291479999995" green="0.85618466010000005" blue="0.587645427" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="filled" title="Affirmations"/>
                                 <connections>
-                                    <action selector="startTapped:" destination="vP2-3H-4wD" eventType="touchUpInside" id="psG-3v-mGh"/>
+                                    <action selector="randomButton:" destination="vP2-3H-4wD" eventType="touchUpInside" id="Mvq-BJ-gZa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cW-uf-XbG">
-                                <rect key="frame" x="163" y="91" width="86" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wm7-da-g8J">
+                                <rect key="frame" x="53" y="147" width="309" height="184"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="0cW-uf-XbG" secondAttribute="height" multiplier="43:18" id="tXr-bG-5pV"/>
+                                    <constraint firstAttribute="width" secondItem="Wm7-da-g8J" secondAttribute="height" multiplier="309:184" id="dAN-X1-24M"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Timer">
-                                        <attributes>
-                                            <font key="NSFont" size="30" name="Galvji"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3M4-vy-bD1">
-                                <rect key="frame" x="94" y="525" width="225" height="31"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="owluparms" translatesAutoresizingMaskIntoConstraints="NO" id="xrU-Dg-hp2">
+                                <rect key="frame" x="53" y="435" width="317" height="365"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="3M4-vy-bD1" secondAttribute="height" multiplier="225:31" id="4EZ-89-haa"/>
-                                    <constraint firstAttribute="width" secondItem="3M4-vy-bD1" secondAttribute="height" multiplier="225:31" id="5Pm-Ri-Vqj"/>
-                                    <constraint firstAttribute="height" constant="31" id="9K4-hy-CP6"/>
-                                    <constraint firstAttribute="width" constant="225" id="GwV-6d-EIE"/>
+                                    <constraint firstAttribute="width" secondItem="xrU-Dg-hp2" secondAttribute="height" multiplier="317:365" id="Pw3-Xi-wfJ"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Reset">
-                                    <fontDescription key="titleFontDescription" name="Galvji-Bold" family="Galvji" pointSize="10"/>
-                                    <color key="baseBackgroundColor" red="0.95722335577011108" green="0.8383147120475769" blue="0.84481436014175415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="resetTapped:" destination="vP2-3H-4wD" eventType="touchUpInside" id="HUx-vK-NCF"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="00:00:00" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aaa-RW-eTd">
-                                <rect key="frame" x="48" y="284" width="319" height="34"/>
-                                <color key="backgroundColor" red="0.99607843159999998" green="0.96862745289999996" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" adjustable="YES" allowsDirectInteraction="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="319" id="EbT-ht-eDy"/>
-                                    <constraint firstAttribute="height" constant="34" id="he3-zo-s8Y"/>
-                                    <constraint firstAttribute="width" secondItem="aaa-RW-eTd" secondAttribute="height" multiplier="319:34" id="nRB-Es-4bf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oYF-SB-97K"/>
                         <color key="backgroundColor" red="1" green="0.97162707029999995" blue="0.82549868979999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="aaa-RW-eTd" firstAttribute="top" secondItem="0cW-uf-XbG" secondAttribute="bottom" constant="157" id="6oO-Hi-Grc"/>
-                            <constraint firstItem="I4g-mc-8U5" firstAttribute="top" secondItem="3M4-vy-bD1" secondAttribute="bottom" constant="296" id="7Pv-Br-EtJ"/>
-                            <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="3M4-vy-bD1" secondAttribute="trailing" constant="95" id="Em3-Xd-QM3"/>
-                            <constraint firstItem="0cW-uf-XbG" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="163" id="HfI-bm-1kv"/>
-                            <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="aaa-RW-eTd" secondAttribute="trailing" constant="47" id="LRt-Bb-58Z"/>
-                            <constraint firstItem="IJQ-Ro-LaS" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="94" id="V6q-vg-4iE"/>
-                            <constraint firstItem="3M4-vy-bD1" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="94" id="YEg-2b-QJX"/>
-                            <constraint firstItem="3M4-vy-bD1" firstAttribute="top" secondItem="IJQ-Ro-LaS" secondAttribute="bottom" constant="85" id="dLR-2J-Ddm"/>
-                            <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="IJQ-Ro-LaS" secondAttribute="trailing" constant="95" id="j48-HJ-k3U"/>
-                            <constraint firstItem="0cW-uf-XbG" firstAttribute="top" secondItem="oYF-SB-97K" secondAttribute="top" constant="47" id="kRc-Px-5fg"/>
-                            <constraint firstItem="3M4-vy-bD1" firstAttribute="top" secondItem="IJQ-Ro-LaS" secondAttribute="bottom" constant="85" id="q6y-X6-5Tk"/>
-                            <constraint firstItem="aaa-RW-eTd" firstAttribute="top" secondItem="0cW-uf-XbG" secondAttribute="bottom" constant="157" id="xaT-7E-rLG"/>
-                            <constraint firstItem="aaa-RW-eTd" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="48" id="yRj-oc-er2"/>
-                            <constraint firstItem="IJQ-Ro-LaS" firstAttribute="top" secondItem="aaa-RW-eTd" secondAttribute="bottom" constant="87" id="yv5-LK-tdn"/>
-                            <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="0cW-uf-XbG" secondAttribute="trailing" constant="165" id="zXe-17-GKR"/>
+                            <constraint firstItem="Wm7-da-g8J" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="53" id="Ato-d6-d9u"/>
+                            <constraint firstItem="3mq-LA-Mwd" firstAttribute="top" secondItem="Wm7-da-g8J" secondAttribute="bottom" constant="33" id="H3V-3K-7Oa"/>
+                            <constraint firstItem="I4g-mc-8U5" firstAttribute="top" secondItem="xrU-Dg-hp2" secondAttribute="bottom" constant="52" id="H6a-Yt-E2C"/>
+                            <constraint firstItem="xrU-Dg-hp2" firstAttribute="leading" secondItem="oYF-SB-97K" secondAttribute="leading" constant="53" id="LXu-VD-PNk"/>
+                            <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="Wm7-da-g8J" secondAttribute="trailing" constant="52" id="XdK-7Y-QVE"/>
+                            <constraint firstItem="oYF-SB-97K" firstAttribute="trailing" secondItem="xrU-Dg-hp2" secondAttribute="trailing" constant="44" id="ajG-wh-zNf"/>
+                            <constraint firstItem="xrU-Dg-hp2" firstAttribute="top" secondItem="3mq-LA-Mwd" secondAttribute="bottom" constant="40" id="naa-jT-P0g"/>
+                            <constraint firstItem="Wm7-da-g8J" firstAttribute="top" secondItem="oYF-SB-97K" secondAttribute="top" constant="103" id="s9T-hx-2VA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3CY-8c-v5M"/>
                     <connections>
-                        <outlet property="resetButton" destination="3M4-vy-bD1" id="akq-e2-7lN"/>
-                        <outlet property="startButton" destination="IJQ-Ro-LaS" id="U5t-Wx-smG"/>
-                        <outlet property="timeTextView" destination="aaa-RW-eTd" id="td1-vQ-K6B"/>
+                        <outlet property="TextLabel" destination="Wm7-da-g8J" id="Yeb-vQ-m9M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mP8-r5-imp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1130,7 +1083,7 @@ Cg
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Please set this up using the timer function.">
+                                                    <fragment content="Please set this up using a timer.">
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="0.33725490196078434" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <font key="NSFont" size="14" name="Galvji"/>
@@ -1870,7 +1823,7 @@ Cgk
     <inferredMetricsTieBreakers>
         <segue reference="dxk-7x-3SX"/>
         <segue reference="4Kn-4r-Kkv"/>
-        <segue reference="HLh-tJ-npa"/>
+        <segue reference="TT5-kM-Wm6"/>
         <segue reference="9OZ-EK-EzR"/>
         <segue reference="HhR-tN-PQV"/>
     </inferredMetricsTieBreakers>
