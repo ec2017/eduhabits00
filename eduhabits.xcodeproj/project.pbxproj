@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		445793772889499100DD60B4 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445793762889499100DD60B4 /* TimerViewController.swift */; };
+		44AE9496288A45A600687EFF /* Timer3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE9495288A45A600687EFF /* Timer3ViewController.swift */; };
 		5C32A61B288A178100703BCD /* timeConversionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C32A61A288A178100703BCD /* timeConversionsViewController.swift */; };
 		5C50051528879F7E00F6A81F /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50051428879F7E00F6A81F /* ToDoTableViewController.swift */; };
 		5C50051728879F9900F6A81F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50051628879F9900F6A81F /* ToDo.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		445793762889499100DD60B4 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		44AE9495288A45A600687EFF /* Timer3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer3ViewController.swift; sourceTree = "<group>"; };
 		5C32A61A288A178100703BCD /* timeConversionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeConversionsViewController.swift; sourceTree = "<group>"; };
 		5C50051428879F7E00F6A81F /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		5C50051628879F9900F6A81F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				BD1B78BC2889D4800086401E /* secondViewController.swift */,
 				5CF9130028879724007FC6C9 /* ToDo Function */,
 				5CCA756B2887392600995A45 /* Main.storyboard */,
+				44AE9495288A45A600687EFF /* Timer3ViewController.swift */,
 				5CCA75712887392700995A45 /* Assets.xcassets */,
 				5CCA75732887392700995A45 /* LaunchScreen.storyboard */,
 				5CCA75762887392700995A45 /* Info.plist */,
@@ -186,6 +189,7 @@
 				5CCA75682887392600995A45 /* SceneDelegate.swift in Sources */,
 				5C50051728879F9900F6A81F /* ToDo.swift in Sources */,
 				5C5005192887A12600F6A81F /* AddToDoViewController.swift in Sources */,
+				44AE9496288A45A600687EFF /* Timer3ViewController.swift in Sources */,
 				5CCA75702887392600995A45 /* eduhabits.xcdatamodeld in Sources */,
 				BD1B78BD2889D4800086401E /* secondViewController.swift in Sources */,
 				5C50051528879F7E00F6A81F /* ToDoTableViewController.swift in Sources */,

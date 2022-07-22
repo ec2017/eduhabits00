@@ -883,10 +883,10 @@
             </objects>
             <point key="canvasLocation" x="3544.9275362318845" y="-668.30357142857144"/>
         </scene>
-        <!--Timer View Controller-->
+        <!--Timer3 View Controller-->
         <scene sceneID="h83-Ab-kks">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vP2-3H-4wD" customClass="TimerViewController" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vP2-3H-4wD" customClass="Timer3ViewController" customModule="eduhabits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kmV-by-hYH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -920,7 +920,7 @@
                                     <color key="baseBackgroundColor" red="0.99587291479999995" green="0.85618466010000005" blue="0.587645427" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="startbutton:" destination="gn3-vs-wNV" eventType="touchUpInside" id="SzI-KG-qKR"/>
+                                    <action selector="startTapped:" destination="vP2-3H-4wD" eventType="touchUpInside" id="psG-3v-mGh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cW-uf-XbG">
@@ -953,7 +953,7 @@
                                     <color key="baseBackgroundColor" red="0.95722335577011108" green="0.8383147120475769" blue="0.84481436014175415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="resetbutton:" destination="gn3-vs-wNV" eventType="touchUpInside" id="Amu-mN-YJ0"/>
+                                    <action selector="resetTapped:" destination="vP2-3H-4wD" eventType="touchUpInside" id="HUx-vK-NCF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -961,9 +961,13 @@
                         <color key="backgroundColor" red="1" green="0.97162707029999995" blue="0.82549868979999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="3CY-8c-v5M"/>
+                    <connections>
+                        <outlet property="resetButton" destination="3M4-vy-bD1" id="akq-e2-7lN"/>
+                        <outlet property="startButton" destination="IJQ-Ro-LaS" id="U5t-Wx-smG"/>
+                        <outlet property="timeTextView" destination="wKp-nx-QXJ" id="LWE-UB-fxP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mP8-r5-imp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="gn3-vs-wNV" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2766.666666666667" y="-2233.2589285714284"/>
         </scene>
