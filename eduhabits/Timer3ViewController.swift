@@ -12,13 +12,10 @@ class Timer3ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
-        
-        
-        
     }
-    @IBOutlet weak var timeTextView: UILabel!
+    
+   
+    @IBOutlet weak var timeTextView: UITextView!
     
     @IBOutlet weak var startButton: UIButton!
     
@@ -27,7 +24,7 @@ class Timer3ViewController: UIViewController {
     var seconds = 0
     var timer = Timer()
     
-    @IBAction func startTapped(_ sender: Any) {
+    @IBAction func startTapped(_ sender: UIButton) {
         guard let timerInfo = timeTextView.text else {return}
         
         do {
@@ -46,12 +43,33 @@ class Timer3ViewController: UIViewController {
     
     
     }
-    @IBAction func resetTapped(_ sender: Any) {
-        }
+    @IBAction func resetTapped(_ sender: UIButton) {
+        reset()
+    
+    }
+    
+    func reset() {
+        timer.invalidate()
+    
+        seconds = 0
+        timeTextView.text = "00:00:00"
+        resetButton.isHidden = true
+        timeTextView.isEditable = true
+        
+        startButton.setTitle("START", for: .normal)
+    }
+    
     @objc func count(){
         seconds -= 1
+
         timeTextView.text = secondsToTime(for: seconds)
+     
+        if timeTextView.text == "24:00:00" {
+            reset()
+        }
+        if timeTextView.text == "00:00:00" {
+            reset()
+    
+        }
     }
-
-
 }
