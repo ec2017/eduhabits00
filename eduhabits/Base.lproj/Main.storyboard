@@ -553,7 +553,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8d-UA-1zb">
                                 <rect key="frame" x="27" y="137" width="361" height="447"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">STEM is a general group of topics that stand for science, technology, engineering, and mathematics. STEM helps students develop more logical thought processes and better habits to help them succeed. Students who have an experience in STEM are also more likely to get chosen for job opportunities. STEM is present in almost every day of your life. STEM is used when you bake, budget, clean, drive, and more.</string>
+                                <mutableString key="text">STEM is a general group of topics that stand for science, technology, engineering, and mathematics. STEM helps students develop more logical thought processes and better habits to help them succeed. Students who have an experience in STEM are also more likely to get chosen for job opportunities. STEM is present in almost every day of your life. STEM is used when you bake, budget, clean, drive, and more. If you would like to check out more resources for STEM, here are a list of different websites that may help you: IXL, Khan Academy, CSI - Web Adventures, Science Kids, Alice.org, etc.. You can also find more resources with a quick web search!</mutableString>
                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1407,7 +1407,7 @@ Cgk
                         <color key="backgroundColor" red="1" green="0.97647058819999999" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="labelColor"/>
                         <toolbar key="tableFooterView" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="haC-Je-yED">
-                            <rect key="frame" x="0.0" y="110.5" width="414" height="44"/>
+                            <rect key="frame" x="0.0" y="111" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <items>
                                 <barButtonItem title="Back" image="arrowshape.turn.up.backward.circle" catalog="system" id="gDI-7P-ldZ">
@@ -1823,8 +1823,8 @@ Cgk
     <inferredMetricsTieBreakers>
         <segue reference="dxk-7x-3SX"/>
         <segue reference="4Kn-4r-Kkv"/>
-        <segue reference="TT5-kM-Wm6"/>
-        <segue reference="9OZ-EK-EzR"/>
+        <segue reference="HLh-tJ-npa"/>
+        <segue reference="cl9-lg-ade"/>
         <segue reference="HhR-tN-PQV"/>
     </inferredMetricsTieBreakers>
     <resources>
