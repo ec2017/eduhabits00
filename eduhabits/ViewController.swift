@@ -12,7 +12,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
     }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondViewController = segue.destination as! secondViewController
         secondViewController.userName = nameField.text!
